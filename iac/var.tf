@@ -1,5 +1,5 @@
 variable "ami" {
-  default = "ami-0fc5d935ebf8bc3bc"
+  default = "i-03651a346367f7803"
 }
 
 variable "instance_type" {
@@ -7,17 +7,17 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "cb_aws_nv_keys"
+  default = "key_nexus"
 }
 
 variable "subnet_id" {
-  default = "subnet-0385704f22e343550"
+  default = "subnet-077f793640c457238"
 }
 
 variable "vpc_security_group_ids" {
-  default = "sg-0ad9e2e746e28693b"
+  default = "sg-064743d8ec6320121"
 }
 
 variable "iam_instance_profile" {
-  default = "8amSSMEC2"
+  default = "8krishna"
 }

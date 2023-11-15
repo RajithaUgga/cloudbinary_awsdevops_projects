@@ -1,0 +1,5 @@
+iac/.terraform
+
+.terraform
+output-file
+.terraform.lock.hcl
